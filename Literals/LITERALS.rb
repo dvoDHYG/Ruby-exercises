@@ -1,4 +1,4 @@
-# THE BASICS
+# THE BASICS: Literals
 
 # Exercise 1:
 puts "Ex 1---------------"
