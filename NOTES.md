@@ -69,3 +69,29 @@ Flow Control:
   end
 
 Loops:
+
+- while loop
+- unless loop
+  -for...in loop
+
+Arrays:
+
+- Methods
+
+  1. .first => first element
+  2. .last => last element
+  3. .pop => removes last value (mutates/destructive)
+  4. .push/ << => adds to end of array (mutates/destructive)
+  5. .unshift => adds to start of array (mutates)
+  6. .delete => deletes all instances of passed in argument (mutates)
+  7. .uniq => deletes duplicates (new array)
+  8. .select => iterates each element with truthy (new array)
+  9. .map/.collect => iterates through each element (new array)
+  10. .flatten => flatten array
+  11. .each => iterates through each element
+  12. .each_index => iterates through each element (returns each index)
+  13. .each_with_index => iterates each element (return value + index)
+  14. .sort => sort array (new array)
+
+- Common methods with predicates (?)
+  1. include? => truthy/falsy
