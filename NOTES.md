@@ -28,10 +28,12 @@ Scopes:
 2. Blocks DO have access outside of scope (inner to outer scope ~ closures in JS)
    Ex: {function} or do...end
 
-Types of Variables
+Types of Variables:
 
 1. Constant - All CAPS
 2. Global - $ (overides all scope boundaries)
 3. Class - @@
 4. Instance - @
 5. Local - most commonly used
+
+Methods:
