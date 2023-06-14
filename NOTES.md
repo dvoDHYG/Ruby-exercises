@@ -119,3 +119,30 @@ Hashes:
 
   1. key? => truthy/falsy
   2. value? => truthy/falsy
+
+  More Stuff:
+
+  - Regex
+
+  1. Ex: "powerball" =~ /b/ => 5 (5th index where true)
+  2. Can use either .match or =~
+
+- Exception Handling
+
+  1. begin
+     puts "some text"
+     rescue
+     puts "some text even if error"
+     end
+
+  - Block and Proc
+
+  1. Ex &block:
+     def take_block(number, &block)
+     block.call(number)
+     end
+
+  2. Ex Proc.new
+     def take_proc(proc)
+     proc.call number
+     end
