@@ -7,6 +7,12 @@ Update from Local to Github:
 3. git commit -m "update log message"
 4. git push -u origin main - command will update all changes from local to github
 
+# Look over material :
+
+1. print
+2. puts
+3. p
+
 Literals:
 
 1. Modulo(%) - will return a negative value only if 2nd operand is negative
@@ -95,3 +101,21 @@ Arrays:
 
 - Common methods with predicates (?)
   1. include? => truthy/falsy
+
+Hashes:
+
+- Methods
+
+  1. .delete(:symbol) => deletes key-value pair
+  2. .select {|k,v|} => return any key-value with truthy
+  3. .fetch("key") => return value
+  4. .to_a => return hash to array
+  5. .keys => return array of keys
+  6. .each_key => iterate and return each key
+  7. .values => return array of values
+  8. .each_value => iterate and return each value
+
+- Common methods with predicates (?)
+
+  1. key? => truthy/falsy
+  2. value? => truthy/falsy
