@@ -67,3 +67,5 @@ Flow Control:
   else
   puts 'It is not 5'
   end
+
+Loops:
