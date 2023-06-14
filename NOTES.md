@@ -37,3 +37,33 @@ Types of Variables:
 5. Local - most commonly used
 
 Methods:
+
+1. Can invoke methods by either using method() or just calling method
+
+Flow Control:
+
+- Order of Precedence
+
+  1. Comparison (<=, =>, <, > )
+  2. Equality ( ==, !=)
+  3. Logical AND (&&)
+  4. Logical OR (||)
+
+- Case Statement
+
+  1. Have base/variable defined
+  2. Case reference to base/variable
+  3. when
+  4. else
+  5. end
+
+  Ex:
+  a = 5
+  case a
+  when 3
+  puts 'It is 3'
+  when 5
+  puts 'It is 5'
+  else
+  puts 'It is not 5'
+  end
