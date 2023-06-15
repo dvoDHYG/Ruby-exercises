@@ -30,7 +30,7 @@ hence "gets.chomp"
 
 Scopes:
 
-1. Methods DO NOT have access outside of scope
+1. Methods (functions) DO NOT have access outside of scope
 
 2. Blocks DO have access outside of scope (inner to outer scope ~ closures in JS)
    Ex: {function} or do...end
