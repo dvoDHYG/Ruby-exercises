@@ -12,6 +12,7 @@ Update from Local to Github:
 1. print
 2. puts
 3. p
+4. numbers are immutable/ strings are mutable
 
 Literals:
 
